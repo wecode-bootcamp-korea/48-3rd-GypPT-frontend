@@ -1,0 +1,87 @@
+@import '/src/styles/variables.scss';
+
+@mixin bodyTextM {
+  font-family: inherit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+@mixin infoTitleText {
+  font-family: inherit;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.myPageEditingContainer {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+
+  .userInfoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+    input {
+      display: flex;
+      padding: 12px 16px;
+      align-items: center;
+      gap: 8px;
+      border-radius: 12px;
+      border: 1px solid #c5c6cc;
+      outline: none;
+      @include bodyTextM;
+
+      &::placeholder {
+        color: $placeholderColor;
+      }
+
+      &:focus {
+        border-radius: 12px;
+        border: 1px solid $pointColor;
+        color: $titleColor;
+      }
+    }
+
+    .infoNickName {
+      width: 100%;
+      display: flex;
+      gap: 5px;
+
+      .nickname {
+        input {
+          width: 295px;
+        }
+      }
+    }
+
+    .formList {
+      display: flex;
+      gap: 16px;
+
+      input {
+        width: 122px;
+      }
+    }
+
+    .formItem {
+      display: flex;
+      flex-direction: column;
+
+      gap: 10px;
+
+      span {
+        @include infoTitleText;
+      }
+    }
+  }
+}

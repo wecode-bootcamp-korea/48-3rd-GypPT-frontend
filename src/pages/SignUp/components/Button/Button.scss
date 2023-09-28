@@ -1,0 +1,68 @@
+@import '/src/styles/variables.scss';
+
+$nonActiveColor: #ebebeb;
+
+.signUpWrap {
+  .btnSubmitWrap {
+    width: 100%;
+
+    button {
+      width: 100%;
+
+      display: flex;
+      padding: 16px 12px;
+      justify-content: center;
+      align-items: center;
+      border: 0;
+      border-radius: 12px;
+
+      background-color: $titleColor;
+      color: white;
+
+      @include buttonText;
+
+      cursor: pointer;
+
+      &:disabled {
+        background-color: rgb(226, 226, 226);
+        color: #949294;
+      }
+    }
+  }
+
+  .btnDoubleCheckWrap {
+    button {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 16px 12px;
+      border: 0;
+      border-radius: 12px;
+
+      background-color: rgb(218, 218, 218);
+      color: gray;
+
+      @include buttonText;
+
+      cursor: pointer;
+    }
+  }
+
+  .checked {
+    button {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 16px 12px;
+      border: 0;
+      border-radius: 12px;
+
+      background-color: $pointColor;
+      color: white;
+
+      @include buttonText;
+
+      cursor: pointer;
+    }
+  }
+}

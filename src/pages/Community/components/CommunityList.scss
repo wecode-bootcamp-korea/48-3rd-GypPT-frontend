@@ -1,0 +1,80 @@
+@import '/src/styles/variables.scss';
+
+.CommunityList {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0px;
+  flex-direction: column;
+
+  .container {
+    width: 331px;
+    height: 132px;
+    border-bottom: 1px solid #e6e6e6;
+    margin: 0 auto;
+    margin-bottom: 8px;
+  }
+
+  .buttonWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+
+  .button {
+    width: 65px;
+    height: 22px;
+    padding: 6px 8px;
+    border-radius: 6px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button.coaching {
+    color: #ff7a00;
+    background-color: white;
+    border: 1px solid #ff7a00;
+  }
+
+  .button.free {
+    color: #c7c7c7;
+    border: 1px solid #c7c7c7;
+  }
+
+  .userName {
+    @include bodyTextS;
+  }
+
+  .titleContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+
+  .title {
+    @include subTitleText;
+    margin-bottom: 8px;
+  }
+
+  .content {
+    @include bodyTextS;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+  }
+
+  .image {
+    width: 70px;
+    height: 70px;
+    border-radius: 16px;
+  }
+
+  .comment {
+    @include bodyTextS;
+    display: flex;
+    justify-content: space-between;
+  }
+}

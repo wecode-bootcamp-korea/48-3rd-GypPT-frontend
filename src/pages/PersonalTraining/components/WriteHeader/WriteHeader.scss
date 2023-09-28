@@ -1,0 +1,43 @@
+.writeHeader {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 50px;
+  justify-content: space-between;
+  background-color: white;
+
+  .infoWrap {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    margin-left: 15px;
+
+    .arrowIcon {
+      width: 20px;
+      height: 20px;
+    }
+    .trainerInfo {
+      margin: 0 10px;
+      display: flex;
+      gap: 3px;
+      .trainerEmoji {
+      }
+      .trainerNickname {
+      }
+    }
+  }
+  .iconWrap {
+    .searchIcon {
+      width: 20px;
+      height: 20px;
+      margin-right: 13px;
+    }
+    .menuIcon {
+      width: 20px;
+      height: 20px;
+      margin-right: 15px;
+    }
+  }
+}

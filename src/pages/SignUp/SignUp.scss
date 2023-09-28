@@ -1,0 +1,99 @@
+@import '/src/styles/variables.scss';
+
+@mixin infoTitleText {
+  font-family: inherit;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.signUpWrap {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .signUpContainer {
+    width: 327px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .header {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+      margin-bottom: 40px;
+
+      h2 {
+        font-family: inherit;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.24px;
+
+        color: $titleColor;
+      }
+    }
+
+    .formContent {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-bottom: 20px;
+
+      .formList {
+        display: flex;
+        gap: 16px;
+      }
+
+      .form {
+        display: flex;
+        gap: 16px;
+      }
+
+      .formItem {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        span {
+          @include infoTitleText;
+        }
+      }
+
+      .nickname {
+        input {
+          flex-grow: 2;
+        }
+      }
+
+      .height,
+      .weight {
+        input {
+          width: 122px;
+        }
+      }
+
+      .checkBox {
+        flex-direction: row;
+        line-height: 19px;
+
+        span {
+          @include bodyTextS;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}

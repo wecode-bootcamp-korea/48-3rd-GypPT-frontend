@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "nickname": "u",
+      "commentTime": "시간",
+      "content": "답글입니당"
+    },
+    {
+      "id": 2,
+      "user": "s",
+      "time": "시간",
+      "comment": "흥입니당"
+    },
+    {
+      "id": 3,
+      "user": "s",
+      "time": "시간",
+      "comment": "뿌입니당"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+.Post {
+  .textWrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 18px;
+  }
+
+  .user {
+    display: flex;
+    align-items: center;
+    font-family: 'Pretendard';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 8px;
+  }
+  .previewWrap {
+    display: flex;
+  }
+  .previewImage {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: inline-block;
+  }
+
+  .customFileInput {
+    display: flex;
+    width: 100px;
+    height: 27px;
+    padding: 9px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid var(--hightlight, #ff7a00);
+    background: var(--White, #fff);
+  }
+
+  .inputWrap {
+    display: flex;
+    height: 450px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0 18px;
+    margin-bottom: 18px;
+  }
+
+  .input {
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+    border: 1px solid #c7c7c7;
+    border-radius: 9px;
+    padding: 10px;
+  }
+
+  .textarea {
+    width: 100%;
+    box-sizing: border-box;
+    height: 443px;
+    resize: none;
+    border: 1px solid #c7c7c7;
+    border-radius: 9px;
+    padding: 10px;
+  }
+
+  .buttonWrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 18px 20px;
+  }
+
+  .cancel {
+    display: flex;
+    width: 145px;
+    height: 40px;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid #ff7a00;
+    background-color: white;
+  }
+
+  .add {
+    display: flex;
+    width: 145px;
+    height: 40px;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #ff7a00;
+    border: none;
+    color: white;
+  }
+}

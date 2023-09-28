@@ -1,0 +1,31 @@
+@import '/src/styles/variables.scss';
+.myTrainingList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  .myTrainingTitle {
+    @include subTitleText;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 25px 0 15px 0;
+  }
+
+  .myTrainingListContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

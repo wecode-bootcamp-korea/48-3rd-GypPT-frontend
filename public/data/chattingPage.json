@@ -1,0 +1,81 @@
+{
+  "data": [
+    {
+      "postId": 9,
+      "isMyPost": true,
+      "trainer_profile_image": "/images/trainer1",
+      "trainerNickname": "JASON",
+      "trainerEmojiName": "ironman",
+      "userEmojiName": "gold",
+      "userNickName": "헬린이",
+      "content": "안녕하세요 궁금한 점이 있는데요.... 제가 살을 빼고 싶어요 ㅠㅠㅠㅠ 도와주세요!! ",
+      "comments": [
+        {
+          "commentId": 1,
+          "isMyComment": false,
+          "nickname": "JASON",
+          "emojiName": "ironman",
+          "comment": "맞춤관리로 확실하게 도와드리겠습니다",
+          "createdAt": "2023-09-14T20:26:17Z"
+        },
+        {
+          "commentId": 2,
+          "isMyComment": true,
+          "nickName": "헬린이",
+          "emojiName": "gold",
+          "comment": "언제부터 시작할 수 있나요??",
+          "createdAt": "2023-09-15T21:05:17Z"
+        },
+        {
+          "commentId": 3,
+          "isMyComment": false,
+          "nickName": "JASON",
+          "emojiName": "ironman",
+          "comment": "퇴근하시고 가장 여유로운 시간이 어떻게 되시나요? 가능하신 날짜와 시간 정리해서 알려주시면 최대한 일정 조율 해보겠습니다!",
+          "createdAt": "2023-09-16T21:26:17Z"
+        },
+        {
+          "commentId": 4,
+          "isMyComment": false,
+          "nickName": "JASON",
+          "emojiName": "ironman",
+          "comment": "퇴근하시고 가장 여유로운 시간이 어떻게 되시나요? 가능하신 날짜와 시간 정리해서 알려주시면 최대한 일정 조율 해보겠습니다!",
+          "createdAt": "2023-09-16T21:26:17Z"
+        },
+        {
+          "commentId": 5,
+          "isMyComment": false,
+          "nickName": "JASON",
+          "emojiName": "ironman",
+          "comment": "퇴근하시고 가장 여유로운 시간이 어떻게 되시나요? 가능하신 날짜와 시간 정리해서 알려주시면 최대한 일정 조율 해보겠습니다!",
+          "createdAt": "2023-09-16T21:26:17Z"
+        },
+        {
+          "commentId": 6,
+          "isMyComment": false,
+          "nickName": "JASON",
+          "emojiName": "ironman",
+          "comment": "퇴근하시고 가장 여유로운 시간이 어떻게 되시나요? 가능하신 날짜와 시간 정리해서 알려주시면 최대한 일정 조율 해보겠습니다!",
+          "createdAt": "2023-09-16T21:26:17Z"
+        },
+        {
+          "commentId": 7,
+          "isMyComment": false,
+          "nickName": "JASON",
+          "emojiName": "ironman",
+          "comment": "퇴근하시고 가장 여유로운 시간이 어떻게 되시나요? 가능하신 날짜와 시간 정리해서 알려주시면 최대한 일정 조율 해보겠습니다!",
+          "createdAt": "2023-09-16T21:26:17Z"
+        },
+        {
+          "commentId": 8,
+          "isMyComment": false,
+          "nickName": "JASON",
+          "emojiName": "ironman",
+          "comment": "퇴근하시고 가장 여유로운 시간이 어떻게 되시나요? 가능하신 날짜와 시간 정리해서 알려주시면 최대한 일정 조율 해보겠습니다!",
+          "createdAt": "2023-09-16T21:26:17Z"
+        }
+      ],
+      "createdAt": "2023-09-14T15:26:17Z"
+    }
+  ]
+}

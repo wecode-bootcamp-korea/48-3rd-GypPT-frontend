@@ -1,0 +1,95 @@
+$titleColor: #1f2024;
+$bodyColor: #71727a;
+$placeholderColor: #8f9098;
+$bolderColor: #d4d6dd;
+$pointColor: #ff7a00;
+
+@mixin topText {
+  font-family: 'Pretendard';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+@mixin categoryText {
+  font-family: 'Pretendard';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+@mixin subTitleText {
+  font-family: 'Pretendard';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+@mixin bodyTextS {
+  font-family: 'Pretendard';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.12px;
+}
+
+@mixin captionText {
+  font-family: 'Pretendard';
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+
+@mixin buttonText {
+  font-family: 'Pretendard';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@mixin postTitleText {
+  font-family: 'Pretendard';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@mixin userNameTextL {
+  font-family: 'Pretendard';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@mixin userNameTextM {
+  font-family: 'Pretendard';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+@mixin userNameTextS {
+  font-family: 'Pretendard';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@mixin subNameText {
+  font-family: 'Pretendard';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}

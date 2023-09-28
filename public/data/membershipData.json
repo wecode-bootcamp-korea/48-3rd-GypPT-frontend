@@ -1,0 +1,22 @@
+{
+  "membershipData": [
+    {
+      "id": 2,
+      "name": "silver",
+      "description": "트레이너와의 질문 서비스",
+      "price": 2500,
+      "benefit": ["무제한 트레이너 질문 서비스"]
+    },
+    {
+      "id": 3,
+      "name": "gold",
+      "description": "트레이너 맞춤 운동 · 식단 서비스",
+      "price": 50000,
+      "benefit": [
+        "무제한 트레이너 질문 서비스",
+        "트레이너 맞춤 식단 서비스",
+        "트레이너 맞춤 운동 서비스"
+      ]
+    }
+  ]
+}

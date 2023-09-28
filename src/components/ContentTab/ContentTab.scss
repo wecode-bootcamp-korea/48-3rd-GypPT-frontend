@@ -1,0 +1,31 @@
+@import 'src/styles/variables.scss';
+
+.contentTab {
+  background-color: #f4f4f4;
+  border-radius: 16px;
+  display: flex;
+  margin: 10px 18px;
+
+  .tabItem {
+    flex: 1;
+    margin: 2px;
+    cursor: pointer;
+
+    .tabItemText {
+      @include buttonText;
+      background-color: #f4f4f4;
+      margin: 1px;
+      border-radius: 16px;
+      color: rgba(47, 47, 47, 0.8);
+      display: block;
+      padding: 8px 12px;
+      text-align: center;
+      gap: 10px;
+    }
+    .on {
+      color: $titleColor;
+      background-color: white;
+      font-weight: bold;
+    }
+  }
+}

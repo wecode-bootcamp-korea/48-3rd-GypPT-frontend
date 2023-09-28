@@ -1,0 +1,99 @@
+@import '/src/styles/variables.scss';
+
+@mixin bodyTextXs {
+  font-family: inherit;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  color: $pointColor;
+}
+
+@mixin infoTitleText {
+  font-family: 'Pretendard-Regular';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.paymentWrap {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .paymentContainer {
+    width: 327px;
+    height: 100%;
+    margin: 48px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    .header {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+
+      h2 {
+        font-family: inherit;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.24px;
+
+        color: $titleColor;
+      }
+    }
+
+    .radioList {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .getInfoContent {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      h3 {
+        @include infoTitleText;
+      }
+
+      .description {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        @include bodyTextS;
+
+        img {
+          width: 10px;
+          height: 10px;
+        }
+      }
+    }
+
+    .selectedTrainer {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+
+      h3 {
+        @include infoTitleText;
+      }
+    }
+  }
+}

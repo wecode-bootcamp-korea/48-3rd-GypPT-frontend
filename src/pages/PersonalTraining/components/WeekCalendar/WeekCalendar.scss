@@ -1,0 +1,55 @@
+@import '/src/styles/variables.scss';
+
+.weekCalendarBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 7px;
+
+  .monthWeekText {
+    @include categoryText;
+    display: flex;
+
+    .arrowLeft {
+      width: 12px;
+      margin-right: 35px;
+    }
+
+    .arrowRight {
+      width: 12px;
+      margin-left: 35px;
+    }
+  }
+
+  .arrowButtonAndDateBox {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    .dateBox {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 37px;
+      height: 58px;
+      gap: 4px;
+      color: $bodyColor;
+
+      .engWeek {
+        @include captionText;
+      }
+
+      .date {
+        @include bodyTextS;
+      }
+    }
+
+    .on {
+      border-radius: 16px;
+      background: #ff7a00;
+      color: white;
+    }
+  }
+}

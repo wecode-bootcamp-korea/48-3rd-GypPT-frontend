@@ -1,0 +1,105 @@
+@import '/src/styles/variables.scss';
+.modal {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  width: 250px;
+  height: 300px;
+  padding: 40px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+  z-index: 999;
+  transform: translate(-50%, -50%);
+  overflow-y: scroll;
+
+  .imgBox {
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+
+    .exerciseImage {
+      height: 100%;
+      width: 100%;
+      border-radius: 15px;
+      object-fit: cover;
+    }
+  }
+
+  .dietImageLabel {
+    margin: 5px 0 20px 0;
+    font-weight: bold;
+    height: 55px;
+    font-size: 13px;
+    color: #0095f6;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+
+    .wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+      .imgBox {
+        width: 250px;
+        height: 200px;
+        border-radius: 15px;
+
+        .previewDietImage {
+          width: 100%;
+          height: 100%;
+          border-radius: 15px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+
+  .formDietImage input[type='file'] {
+    display: none;
+  }
+
+  .dietImageUploadBox {
+    .imgaeUploadIcon {
+      width: 120px;
+      height: 120px;
+    }
+    .dietImageUploadText {
+      font-size: 15px;
+      font-weight: 400;
+      color: gray;
+    }
+  }
+
+  .name {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 35px;
+  }
+
+  .content {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 14px;
+    line-height: 20px;
+  }
+
+  .closeIcon {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -1,0 +1,12 @@
+@import '/src/styles/variables.scss';
+.buttonM {
+  @include buttonText;
+  width: 70px;
+  height: 40px;
+  color: white;
+  border-radius: 12px;
+  border: 1.5px solid $pointColor;
+  background-color: $pointColor;
+  gap: 8px;
+  flex-shrink: 0;
+}

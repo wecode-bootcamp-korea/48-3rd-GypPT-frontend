@@ -1,0 +1,80 @@
+.PostDetailBox {
+  .userBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+
+  .userName {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .button {
+    display: flex;
+    width: 65px;
+    height: 27px;
+    padding: 9px 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 6px;
+  }
+
+  .button.free {
+    border: 1px solid #c7c7c7;
+    color: #c7c7c7;
+  }
+
+  .button.coaching {
+    border: 1px solid #ff7a00;
+    color: #ff7a00;
+  }
+
+  .title {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+  }
+
+  .text {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #71727a;
+    margin-bottom: 16px;
+  }
+
+  .image {
+    height: 210px;
+    width: 210px;
+    margin-bottom: 16px;
+  }
+
+  .commentBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+
+  .comment {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    color: #999;
+    line-height: 22px;
+  }
+
+  .time {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    color: #999;
+  }
+}

@@ -13,34 +13,15 @@ const Nav = () => {
 
   const NAV_ITEMS = [
     {
-      url: '/sign-in',
-      icon: <IoSwapVerticalOutline className="Icon" />,
-      text: (
-        <div className="text">
-          {localStorage.getItem('TOKEN') ? '로그아웃' : '로그인'}
-        </div>
-      ),
-      onClick: () => {
-        if (localStorage.getItem('TOKEN')) {
-          localStorage.removeItem('TOKEN');
-          alert('로그아웃 되었습니다');
-        }
-        if (!localStorage.getItem('TOKEN')) {
-          navigate('/sign-in');
-        }
-      },
-    },
-    {
       url: '/community',
       icon: <HiOutlineChatBubbleBottomCenterText className="Icon" />,
       text: <div className="text">커뮤니티</div>,
       onClick: '',
     },
-
     {
-      url: '/mypage',
-      icon: <BsFillPersonFill className="Icon" />,
-      text: <div className="text">마이페이지</div>,
+      url: '/personal-training',
+      icon: <IoIosFitness className="Icon" />,
+      text: <div className="text">맞춤운동</div>,
       onClick: '',
     },
     {
@@ -50,10 +31,28 @@ const Nav = () => {
       onClick: '',
     },
     {
-      url: '/personal-training',
-      icon: <IoIosFitness className="Icon" />,
-      text: <div className="text">맞춤운동</div>,
+      url: '/mypage',
+      icon: <BsFillPersonFill className="Icon" />,
+      text: <div className="text">마이페이지</div>,
       onClick: '',
+    },
+    {
+      url: '/sign-in',
+      icon: <IoSwapVerticalOutline className="Icon" />,
+      text: (
+        <div className="text">
+          {localStorage.getItem('authorization') ? '로그아웃' : '로그인'}
+        </div>
+      ),
+      onClick: () => {
+        if (localStorage.getItem('authorization')) {
+          localStorage.removeItem('authorization');
+          alert('로그아웃 되었습니다');
+        }
+        if (!localStorage.getItem('authorization')) {
+          navigate('/sign-in');
+        }
+      },
     },
   ];
 
@@ -61,7 +60,7 @@ const Nav = () => {
     <div className="nav">
       {NAV_ITEMS.map(pathName => (
         <NavLink
-          key={pathName.text}
+          key={pathName.url}
           to={pathName.url}
           onClick={pathName.onClick}
           style={({ isActive }) => {

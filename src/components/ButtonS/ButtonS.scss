@@ -1,0 +1,14 @@
+@import '/src/styles/variables.scss';
+.buttonS {
+  @include buttonText;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  border-radius: 12px;
+  border: 1.5px solid $pointColor;
+  background-color: white;
+  color: $pointColor;
+  width: 65px;
+  height: 36px;
+}

@@ -1,0 +1,12 @@
+{
+  "trainerData": {
+    "id": 1,
+    "emoji": "💪",
+    "nickName": "파로스",
+    "profileImage": "/images/trainer1.jpg",
+    "score": 23,
+    "career": ["최강 피트니스 트레이너", "삼성 온라인 피트니스 강사"],
+    "awards": ["wecode sports model 2위", "gymPT physique 1위"],
+    "license": ["명지대학교 스포츠재활학 석사", "스포츠마사지 자격증"]
+  }
+}

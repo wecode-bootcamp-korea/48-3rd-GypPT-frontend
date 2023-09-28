@@ -1,0 +1,22 @@
+@import '/src/styles/variables.scss';
+
+$nonActiveColor: #ebebeb;
+
+.btnEditing {
+  button {
+    display: flex;
+    width: 151px;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 12px;
+    border: 0;
+    border-radius: 12px;
+
+    background-color: $pointColor;
+    color: white;
+
+    @include buttonText;
+
+    cursor: pointer;
+  }
+}

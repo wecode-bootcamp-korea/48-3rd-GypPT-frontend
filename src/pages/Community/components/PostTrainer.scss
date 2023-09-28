@@ -1,0 +1,41 @@
+.PostTrainer {
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 16px;
+
+  .answer {
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 16px 0;
+    gap: 10px;
+  }
+  .commentWrap {
+    gap: 10px;
+  }
+  .commentBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .trainer {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .time {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: #999;
+  }
+
+  .content {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    color: #71727a;
+    margin-bottom: 10px;
+  }
+}
